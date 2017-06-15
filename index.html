@@ -1,0 +1,48 @@
+<doctype! html>
+    <head>
+        <title>Murilo Silva Jr.</title>
+        <style>
+            #all{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 563px;
+                height: 674px;
+                margin-top: -337px; /* Half the height */
+                margin-left: -337px; /* Half the width */    
+            }
+
+            .img{
+                border-left:1px solid #021a40;
+                border-right:1px solid #021a40;
+            }
+
+            .top{
+                border-top:1px solid #021a40;
+                border-bottom:1px solid #021a40;
+                border-left:1px solid #021a40;
+                border-right:1px solid #021a40;
+            }
+
+            .bot{
+                border-bottom:1px solid #021a40;
+                border-left:1px solid #021a40;
+                border-right:1px solid #021a40;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all">
+            <img src="images/msjr-bs-front.png" class="top" usemap="#links1" width="563px" height="337px" alt="Murilo Silva Jr. Business Card Front"/>
+            <map name="links1">
+                <area shape="rect" coords="185,200,425,255" alt="Sun" href="mailto:me@murilosilva.com">
+            </map>
+            <img src="images/msjr-bs-back.png" class="bot" usemap="#links2"  width="563px" height="337px" alt="Murilo Silva Jr. Business Card back"/>
+            <map name="links2">
+                <area shape="rect" coords="125,55, 450,130" alt="Sun" href="http://murilosilva.com">
+                <area shape="rect" coords="125,130,450,207" alt="Mercury" href="http://linkedin.com/in/msilva12">
+                <area shape="rect" coords="125,207,450,280" alt="Venus" href="http://github.com/msilva12">
+            </map>
+        </div>
+    </body>
+</html>
